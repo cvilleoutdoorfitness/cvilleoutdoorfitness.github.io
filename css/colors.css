@@ -1,0 +1,306 @@
+/* Namari Landing Page Dynamic Style Index
+
+1. Website Default Styling and Background Colors
+2. Navigation
+3. Primary and Secondary Colors
+4. Banner
+5. Typography
+6. Buttons
+7. Footer
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 1. Website Default Styling and Background Colors */
+/*------------------------------------------------------------------------------------------*/
+
+body {
+    background:#00A7E1;
+}
+
+.page-border > .top-border, .page-border > .right-border, .page-border > .bottom-border, .page-border > .left-border {
+    background: #00A7E1;
+}
+
+#header.nav-solid {
+    background: #00A7E1;
+}
+
+header#banner {
+    background-color: #00A7E1;
+}
+
+section#about {
+    background-color: #CDCACC;
+}
+
+aside#gallery {
+    background-color: #00A7E1;
+}
+
+aside#contact {
+    background-color: #CDCACC;
+}
+
+/* Default Link Color */
+
+a, .la-ball-triangle-path {
+    color:#00008B;
+}
+
+a:hover, #header.nav-solid nav a:hover {
+    color:#F0C808;
+}
+
+/* Default Icon Color */
+
+.icon i {
+    color:#4F9D69;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 2. Navigation */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Transparent Navigation Color on a Banner */
+
+#header nav a, #header i {
+    color:#111;
+}
+
+
+/* Navigation Colors when the Navigation is sticky and solid */
+
+#header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
+    color:#333;
+}
+
+
+/* Navigation Active State */
+
+/* NOTE: this doesn't activate properly for the Contact link since the content of that area is so short,
+     so best not to use it at all */
+/*
+#header.nav-solid .active {
+    color: #F0C808;
+    border-color: #F0C808;
+}
+*/
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 3. Primary and Secondary Colors */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Primary Background and Text Colors */
+
+.primary-color {
+    background-color:#F0C808;
+}
+
+.primary-color, .primary-color .section-title, .primary-color .section-subtitle p {
+    color:#fff;
+}
+
+.text-center .section-heading h2:after {
+    margin:30px auto 25px auto;
+}
+
+/* Primary Icon Colors */
+
+.primary-color .icon i, .primary-color i {
+    color:#fff;
+}
+
+
+/* Secondary Background and Text Colors */
+
+.secondary-color {
+    background-color:#f5f5f5;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 4. Banner */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Banner Background and Text Colors */
+
+@media all and (min-width: 1024px) {
+    #banner {
+        background: url("../images/banner-images/tall-banner-image.png") no-repeat center top;
+        background-size:cover;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 5. Typography */
+/*------------------------------------------------------------------------------------------*/
+
+
+body {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:15px;
+    font-weight:normal;
+    color:#111;
+}
+
+/* Logo, if you are using Fonts as Logo and not image */
+
+#logo h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:24px;
+    font-weight:bold;
+    color:#111;
+}
+
+#logo h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:16px;
+    font-weight:normal;
+    color:#111;
+}
+
+
+/* Banner Typography */
+
+#banner h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:62px;
+    line-height:60px;
+    font-weight:800;
+    color:#111;
+}
+
+#banner h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:18px;
+    line-height:25px;
+    font-weight:300;
+    color:#111;
+}
+
+
+/* Section Title and Subtitle */
+
+.section-title {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 34px;
+    font-weight:700;
+    color:#111;
+}
+
+.section-subtitle {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 18px;
+    font-weight:300;
+    color:#111;
+}
+
+/* Standard Headings h1-h6 */
+
+h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 40px;
+    font-weight:300;
+    color:#111;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 34px;
+    font-weight:300;
+    color:#111;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 30px;
+    font-weight:700;
+    color:#111;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 18px;
+    font-weight:400;
+    color:#111;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 16px;
+    font-weight:400;
+    color:#111;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 14px;
+    font-weight:400;
+    color:#111;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 6. Buttons */
+/*------------------------------------------------------------------------------------------*/
+
+/* ----------Default Buttons---------- */
+
+
+/* Button Text */
+
+.button, input[type="submit"]  {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:14px;
+    font-weight:bold;
+    color:#111;
+}
+
+
+/* Button Color */
+
+.button, input[type="submit"] {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+.button:hover,  input[type="submit"]:hover {
+    border-color:#F0C808;
+    color:#F0C808;
+}
+
+
+/* ----------Banner Buttons---------- */
+
+
+/* Button Text */
+
+#banner .button {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:16px;
+    color:#111;
+}
+
+
+/* Button Color */
+
+#banner .button {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+#banner .button:hover {
+    color:#F0C808;
+    border-color:#F0C808;
+}
