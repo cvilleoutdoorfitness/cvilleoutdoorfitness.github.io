@@ -1692,6 +1692,12 @@ h6 {
         padding: 0;
     }
 
+    #banner #logo h1 {
+        font-size:20px;
+        margin-right: 5px;
+        max-width: 85%;
+    }
+
     #banner-content.row {
         padding-top: 85px !important;
     }
@@ -1709,7 +1715,8 @@ h6 {
     }
 
     #banner h1 {
-        font-size: 48px;
+        font-size: 54px;
+        line-height: 50px;
     }
 
     /* Hide Elements */
