@@ -204,7 +204,7 @@ img.banner-logo {
 
 [class*='col-'] {
     float: left;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Clearfix */
@@ -305,7 +305,7 @@ img.banner-logo {
 }
 
 #header ul {
-    text-align: center;
+    text-align: right;
 }
 
 #header li {
@@ -320,7 +320,8 @@ img.banner-logo {
     float: left;
     height: 71px;
     line-height: 66px;
-    margin-right: 15px;
+    margin-right: 10px;
+    max-width: 85%;
 }
 
 #logo h1, #logo h2 {
@@ -617,7 +618,7 @@ h6 {
 /* Section Headings */
 
 .section-heading {
-    padding: 0 0 15px 0;
+    padding: 0 0 0 0;
 }
 
 .section-subtitle {
