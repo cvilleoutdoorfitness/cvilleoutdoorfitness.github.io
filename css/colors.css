@@ -130,7 +130,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Banner Background and Text Colors */
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 800px) {
     #banner {
         background: url("../images/banner-images/tall-banner-image.png") no-repeat center top;
         background-size:cover;
